@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bill Splitter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Bill Splitter</h1>
+        <p>Split the bill fairly between friends.</p>
+
+        <input
+            type="number"
+            id="bill"
+            placeholder="Total bill (₹)"
+            min="0.01"
+            step="any"
+        >
+
+        <input
+            type="number"
+            id="people"
+            placeholder="Number of people"
+            min="1"
+            step="1"
+        >
+
+        <button id="split">Split Bill</button>
+
+        <p id="result"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
